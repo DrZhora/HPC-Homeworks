@@ -1,10 +1,23 @@
-# Ignore Linux executables
-a.out
-*.out
-
-# Ignore Windows executables
-*.exe
-*.dll
-
-# Optional: ignore object files
+# Object files
 *.o
+*.obj
+
+# Executables (Unix/Linux/macOS)
+*.out
+a.out
+
+# Executables (Windows)
+*.exe
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Debug files
+*.dSYM/
