@@ -1,0 +1,10 @@
+# Ignore Linux executables
+a.out
+*.out
+
+# Ignore Windows executables
+*.exe
+*.dll
+
+# Optional: ignore object files
+*.o
